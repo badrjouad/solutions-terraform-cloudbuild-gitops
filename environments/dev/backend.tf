@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "science-312722-tfstate"
+    bucket = "high-science-312722"
     prefix = "env/dev"
   }
 }
